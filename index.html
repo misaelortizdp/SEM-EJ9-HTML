@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ex9-HTML-SEM</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div id="home">
@@ -14,54 +18,61 @@
             <input type="button" value="Try it free">
         </header>
         <article>
-            <h1>Build  The Community
+            <section> 
+                <h1 class="titleFont" >Build  The Community
                 Your Fans will Love</h1>
-            <p>Huddle re-images the way we build communities. You have
+                <p>Huddle re-images the way we build communities. You have
                 a voice, but so does your audience. Create connections with 
                 your users as you engage in genuine discussion.</p>
-            <input type="button" value="Get Started For Free">
+                <input type="button" value="Get Started For Free">
+            </section>
+            <div><img src="./img/illustration-mockups.svg" alt=""> </div>
+            
+            
         </article>
-        <img src="./img/illustration-mockups.svg" alt="">
+        
     </div>
     <main>
-        <article id="card-1">
+        <article class="card" id="card-1">
             <section>
-                <h1>Grow Together</h1>
-                <p>Generate meaningful discussions with your audience and
+                <h1 class="card-h1 titleFont">Grow Together</h1>
+                <p class="card-p">Generate meaningful discussions with your audience and
                     build a strong, loyal community. Think of the insightful
                     conversations you mis out on whith a feedback form.</p>
             </section>
-            <img src="./img/illustration-grow-together.svg" alt="">
+            <img class="card-img" src="./img/illustration-grow-together.svg" alt="">
         </article>
-        <article id="card-2">
-            <img src="./img/illustration-flowing-conversation.svg" alt="">
+        <article class="card" id="card-2">
+            <img class="card-img" src="./img/illustration-flowing-conversation.svg" alt="">
             <section>
-                <h1>Flowing Conversation</h1>
-                <p>You wouldn’t paginate a conversation in real life, so why do 
+                <h1 class=" card-h1 titleFont">Flowing Conversation</h1>
+                <p class="card-p" >You wouldn’t paginate a conversation in real life, so why do 
                     it online? Our threads have just-in-time loading for a more
                     natural flow</p>
             </section>
         </article>
-        <article id="card-3">
+        <article class="card" id="card-3">
             <section>
-                <h1>Your Users</h1>
-                <p>it takes no time al all to integrate Huddle with  you app’s
+                <h1 class="card-h1 titleFont">Your Users</h1>
+                <p class="card-p" >it takes no time al all to integrate Huddle with  you app’s
                     authentication solution. This means, once signed in to
                     our app, your users can start chatting immediately</p>
             </section>
-            <img src="./img/illustration-your-users.svg" alt="">
+            <img class="card-img" src="./img/illustration-your-users.svg" alt="">
         </article>
     </main>
     <article id="card-float">
-        <p>Ready To Build Your Community ?</p>
+        <h1 class="titleFont">Ready To Build Your Community ?</h1>
         <input type="button" value="Get Started For Free">
     </article>
     <footer>
-        <img src="" alt="">
+        <img src="./img/whiteLogo 1.svg" alt="">
+
+        <div>
         <section id="info-icons">
-            <img src="./img/icon-location.svg" alt="">
-            <img src="./img/icon-phone.svg" alt="">
-            <img src="./img/icon-email.svg" alt="">
+            <img class="icons" src="./img/icon-location.svg" alt="">
+            <img class="icons" src="./img/icon-phone.svg" alt="">
+            <img class="icons" src="./img/icon-email.svg" alt="">
         </section>
         <section id="info">
             <p>Lorem ipsum dolor sit amet consectetur, 
@@ -69,17 +80,17 @@
             <p>+1-543-123-4567</p>
             <p>example@huddle.com</p>
         </section>
-        <section id="links1">
+        <section class="links" id="links1">
             <span>About Us</span>
             <span>What We Do</span>
             <span>FAQ</span>
         </section>
-        <section id="links2" >
+        <section class="links" id="links2" >
             <span>Career</span>
             <span>Blog</span>
             <span>Contact Us</span>
         </section>
-        <section id="column4">
+        <section  id="column4">
             <section id="social-media">
                 <img src="./img/Logo-facebook.svg" alt="">
                 <img src="./img/Logo-twitter.svg" alt="">
@@ -87,6 +98,7 @@
             </section>
             <span>© Copyright 2018 Huddle. All rights reserved</span>
         </section>
+    </div>
     </footer>
 </body>
 

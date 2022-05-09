@@ -286,3 +286,8 @@ footer>div {
     font-weight: 600;
     font-size: 20px;
 }
+
+#phone-number{
+    position: relative;
+    bottom: 2rem;
+}
